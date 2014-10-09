@@ -1,7 +1,7 @@
 singlylinkedlist
 ================
 
-University of New Orleans Data Structures Homework Two – Singly-linked List
+University of New Orleans Data Structures Homework Two – Singly-Linked List
 
 This is an implementation of a generic linked list that is only singly-linked. That is, each node only knows about the next node. Name it SinglyLinkedList. This list has a head and a tail node and does not keep track of its size. It implements the Iterable<T> interface, and it has an inner class that implements the Iterator<T> interface called SinglyLinkedListIterator. There is also an inner
 class, Node, that defines the node objects.
