@@ -6,6 +6,8 @@ class, Node, that defines the node objects.
 
 This includes a method to find the Nth to last item in the singly-linked list. The list does not know nor provide a method to return its size.
 
+####Class SinglyLinkedList
+
 The linked list provides the following methods:
 
 - public void add(T data)
@@ -16,7 +18,9 @@ The linked list provides the following methods:
 
 The method add() adds a new element to the end of the list. The method remove() removes the node that follows previous from the linked list. If a call to remove() attempts to remove the tail, remove() throws an IllegalStateException.
 
-SinglyLinkedListIterator implements the following 4 methods:
+####Class SinglyLinkedListIterator
+
+The iterator implements the following 4 methods:
 
 - public boolean hasNext()
 - public T next()
