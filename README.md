@@ -20,7 +20,7 @@ The method add() adds a new element to the end of the list. The method remove() 
 
 ####Class SinglyLinkedListIterator
 
-The iterator implements the following 4 methods:
+The iterator implements the following four methods:
 
 - public boolean hasNext()
 - public T next()
